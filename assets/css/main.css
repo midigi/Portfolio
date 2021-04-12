@@ -1795,6 +1795,78 @@ input, select, textarea {
 
 		}
 
+		.project-img {
+			width: 100%;
+			padding-bottom: 1em;
+		}
+
+		.project-img img{
+			max-width: 100%;
+		}
+
+		.project-links {
+			padding-bottom: 1em;
+		}
+
+		.tech-list {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		list-style-type: none;
+	}
+
+	.tech-list--item {
+		padding-right: 2.2em;
+		margin-bottom: 1em;
+		text-align: left;
+		transition: .6s;
+	}
+
+	.tech-list--item div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		flex-wrap: wrap;
+		text-align: center;
+	}
+
+	.tech-list--item img {
+		max-width: 88px;
+		height: 84px;
+		box-sizing: border-box;
+		padding: 1em 0;
+	}
+
+	.tech-list--item:hover {
+		transform: scale(1.1);
+	}
+
+	.arrow {
+		border: none;
+		cursor: pointer;
+		display: inline-block;
+		font-size: 1.1em;
+		font-weight: 300;
+		line-height: 0em;
+		outline: 0;
+		position: relative;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		white-space: nowrap;
+		transition: 0.2s;
+	}
+
+	.arrow:hover {
+		text-shadow: 0 0 4px rgba(255, 255, 255, 0.7)
+	}
+
+	a, .arrow, button {
+		-webkit-tap-highlight-color: transparent;
+	}
 /* Box */
 
 	.box {
